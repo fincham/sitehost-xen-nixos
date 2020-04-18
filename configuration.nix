@@ -44,7 +44,7 @@
             version = 1;
             extraPerEntryConfig = "root (hd1)";
             device = "nodev";
-	          splashImage = null;
+	    splashImage = null;
         };
         initrd.availableKernelModules = [ "xen_blkfront" "xen_netfront" "xen_pcifront" "xen_scsifront" ];
         initrd.kernelModules = [ "xen_blkfront" "xen_netfront" ];
