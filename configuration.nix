@@ -48,7 +48,7 @@
         };
         initrd.availableKernelModules = [ "xen_blkfront" "xen_netfront" "xen_pcifront" "xen_scsifront" ];
         initrd.kernelModules = [ "xen_blkfront" "xen_netfront" ];
-        kernelParams=["root=/dev/xvda2" "console=tty1" "net.ifnames=0" "biosdevname=0"];
+        kernelParams = [ "root=/dev/xvda2" "console=tty1" "net.ifnames=0" "biosdevname=0" ];
     };    
 
     system.stateVersion = "19.09";
